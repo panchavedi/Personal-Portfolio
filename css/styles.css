@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@500&display=swap');
+
+*{
+    font-family: 'Roboto Slab', serif;
+    font-size: 20px;
+    
+}
+
+.backImg{
+
+    background-image:url("/Images/backgroundImg.jpg");
+    background-repeat: repeat;
+    background-attachment: scroll;
+    margin:auto;
+    border-color: antiquewhite;
+    border-style: dotted;
+    padding-top: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+b{
+    color:rgb(250, 5, 5);
+}
+#cls{
+    color:blueviolet;
+}
+
+.ar:hover{
+    
+}
+
+.highlight:hover{
+    font-weight: 100px;
+    color: rgb(255, 51, 0);
+    font-size:larger;
+}
+
+.bannerBgImage{
+    height: 115vh;
+    background:url("/Images/laptopX.jpg");
+    background-size:cover;
+    position:relative;
+}
+
+.bannerText{
+    text-align: right;
+    position: absolute;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    color:aliceblue;
+}
+
+.bannrtTitle{
+    font-size: 4rem;
+}
+
+.bannerDesc{
+    font-size: 2rem;
+}
+.card{
+    cursor: pointer;
+}
+.card:hover{
+    background-color:rgb(233, 118, 156);
+    border:5px solid rgb(138, 182, 49);
+}
+.bIcon{
+    width:100%;
+    text-align: centre;
+    font-size:40px;
+}
+.img-fluid:hover{
+    
+}
